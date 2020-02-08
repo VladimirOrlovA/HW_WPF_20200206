@@ -1,0 +1,30 @@
+﻿<Window x:Class="HW_WPF_20200206.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW_WPF_20200206"
+        mc:Ignorable="d"
+        Title="MainWindow HW 2020-02-06  Task 1-17" Height="450" Width="800">
+    <Grid>
+        <WrapPanel x:Name="btnBox" Orientation="Vertical">
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task a - TabularGrid</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task b - GridUnits</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task c - GridUnits1</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task d - GridUnits2</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task e - GridColRowSpan</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task f - Grid</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task g - StackPanel</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task h - SatckPanel1</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task i - SatckPanel2</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task j - SatckPanel3</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task k - DockPanel</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task l - DockPanel1</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task m - DockPanel2</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task n - WrapPanel</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task o - WrapPanel1</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task p - WrapPanel2</Button>
+            <Button Width="250" Height="40" Margin="5" FontSize="20">Task q - WrapPanel3</Button>
+        </WrapPanel>
+    </Grid>
+</Window>
