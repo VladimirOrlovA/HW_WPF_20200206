@@ -94,7 +94,7 @@ namespace HW_WPF_20200206
                     {
                         StackPanel1 task = new StackPanel1();
                         task.Show();
-                        MessageBox.Show("run");
+                        MessageBox.Show("run"); 
                     }
                     break;
 
