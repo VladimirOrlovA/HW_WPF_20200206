@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HW_WPF_20200206"
         mc:Ignorable="d"
-        Title="StackPanel1" Height="450" Width="580">
+        Title="StackPanel1" Height="300" Width="580">
     <StackPanel Orientation="Horizontal">
         <Button FontSize="24">Button 1</Button>
         <Button FontSize="24">Button 2</Button>
