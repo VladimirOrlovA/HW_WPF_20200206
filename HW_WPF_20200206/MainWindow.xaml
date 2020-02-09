@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:HW_WPF_20200206"
         mc:Ignorable="d"
         Title="HomeWork 2020-02-06  Task 1-17" Height="500" Width="530">
-    <Grid>
+    <Grid> 
         <WrapPanel x:Name="btnBox" Orientation="Vertical">
             <Button Width="250" Height="40" Margin="5" FontSize="20" Padding="15 0" HorizontalContentAlignment="Stretch">Task a - TabularGrid</Button>
             <Button Width="250" Height="40" Margin="5" FontSize="20" Padding="15 0" HorizontalContentAlignment="Stretch">Task b - GridUnits</Button>
