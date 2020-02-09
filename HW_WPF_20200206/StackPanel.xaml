@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HW_WPF_20200206"
         mc:Ignorable="d"
-        Title="StackPanel" Height="450" Width="650">
-    <Grid>
-        
-    </Grid>
+        Title="StackPanel" Height="250" Width="650">
+    <StackPanel>
+        <Button FontSize="24">Button 1</Button>
+        <Button FontSize="24">Button 2</Button>
+        <Button FontSize="24">Button 3</Button>
+        <Button FontSize="24">Button 4</Button>
+        <Button FontSize="24">Button 5</Button>
+        <Button FontSize="24">Button 6</Button>
+    </StackPanel>
 </Window>

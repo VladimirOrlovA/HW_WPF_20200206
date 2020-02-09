@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HW_WPF_20200206"
         mc:Ignorable="d"
-        Title="DockPanel" Height="450" Width="650">
-    <Grid>
-        
-    </Grid>
+        Title="DockPanel" Height="300" Width="300">
+    <DockPanel>
+        <Button DockPanel.Dock="Left">Left</Button>
+        <Button DockPanel.Dock="Right">Right</Button>
+        <Button DockPanel.Dock="Top">Top</Button>
+        <Button DockPanel.Dock="Bottom">Bottom</Button>
+        <Button >Center</Button>
+    </DockPanel>
 </Window>
