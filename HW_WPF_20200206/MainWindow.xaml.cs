@@ -36,7 +36,7 @@ namespace HW_WPF_20200206
             string windowName = (((Button)sender).Content).ToString();
             windowName = windowName.Substring(windowName.IndexOf('-') + 2);
 
-            MessageBox.Show(windowName);
+            //MessageBox.Show(windowName);
 
             switch (windowName)
             {
@@ -94,7 +94,6 @@ namespace HW_WPF_20200206
                     {
                         StackPanel1 task = new StackPanel1();
                         task.Show();
-                        MessageBox.Show("run"); 
                     }
                     break;
 
@@ -105,7 +104,7 @@ namespace HW_WPF_20200206
                     }
                     break;
 
-                case "StackPane3":
+                case "StackPanel3":
                     {
                         StackPanel3 task = new StackPanel3();
                         task.Show();

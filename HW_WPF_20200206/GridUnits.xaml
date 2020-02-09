@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HW_WPF_20200206"
         mc:Ignorable="d"
-        Title="GridUnits" Height="450" Width="800">
+        Title="GridUnits" Height="450" Width="650">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="0" Content="Button 1"/>
+        <Button Grid.Column="1" Content="Button 2 with long text"/>
+        <Button Grid.Column="2" Content="Button 3"/>
+
     </Grid>
 </Window>
