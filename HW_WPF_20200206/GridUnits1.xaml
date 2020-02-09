@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="GridUnits1" Height="450" Width="650">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.06*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="0" Content="Button 1"/>
+        <Button Grid.Column="1" Content="Button 2 with long text"/>
+        <Button Grid.Column="2" Content="Button 3"/>
+
     </Grid>
 </Window>
